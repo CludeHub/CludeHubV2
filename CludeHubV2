@@ -552,60 +552,6 @@ loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-3d-Box-ESP-
       		print("button pressed")
   	end    
 })
-Tab:AddToggle({
-                    Name = "Anti Void (Works in tournament)",
-                    Default = false,
-                    Callback = function(Value)
-game.Workspace.dedBarrier.CanCollide = Value
-game.Workspace.TAntiVoid.CanCollide = Value
-                    end    
-                })
-Tab:AddToggle({
-                    Name = "Anti Timestop",
-                    Default = false,
-                    Callback = function(Value)
-AntiTimestop = Value
-while AntiTimestop do
-                for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
-                    if v.ClassName == "Part" then
-                        v.Anchored = false
-                    end
-                end
-task.wait()
-end
-                    end    
-                })
-Tab:AddToggle({
-                    Name = "Anti Squid",
-                    Default = false,
-                    Callback = function(Value)
-AntiSquid = Value
-if AntiSquid == false then
-        game.Players.LocalPlayer.PlayerGui.SquidInk.Enabled = true
-        end
-while AntiSquid do
-if game.Players.LocalPlayer.PlayerGui:FindFirstChild("SquidInk") then
-        game.Players.LocalPlayer.PlayerGui.SquidInk.Enabled = false
-end
-task.wait()
-end
-                    end    
-                })
-Tab:AddToggle({
-                    Name = "Anti Null",
-                    Default = false,
-                    Callback = function(Value)
-AntiNull = Value
-while AntiNull do
-for i,v in pairs(game.Workspace:GetChildren()) do
-                    if v.Name == "Imp" and v:FindFirstChild("Body") then
-shared.gloveHits[game.Players.LocalPlayer.leaderstats.Glove.Value]:FireServer(v.Body,true)
-end
-end
-task.wait()
-end
-                    end    
-                })
 local Tab = Window:MakeTab({
 	Name = "Fe visual script",
 	Icon = "rbxassetid://4483345998",
@@ -701,4 +647,12 @@ loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Cat-Hub-V2-
       		print("button pressed")
   	end    
 })
+local Tab = Window:MakeTab({
+        Name = "Credit",
+        Icon = "rbxassetid://4483345998",
+        PremiumOnly = false
+})
+Tab:AddLabel("#Clude")
+Tab:AddLabel("Paul")
+Tab:AddLabel("c00lkidd")
 OrionLib:Init()
