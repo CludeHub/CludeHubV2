@@ -553,25 +553,6 @@ loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-3d-Box-ESP-
   	end    
 })
 Tab:AddToggle({
-                    Name = "Anti Ragdoll (Resets character)",
-                    Default = false,
-                    Callback = function(Value)
-AntiRagdoll = Value
-if AntiRagdoll then
-game.Players.LocalPlayer.Character.Humanoid.Health = 0
-game.Players.LocalPlayer.CharacterAdded:Connect(function()
-game.Players.LocalPlayer.Character:WaitForChild("Ragdolled").Changed:Connect(function()
-if game.Players.LocalPlayer.Character:WaitForChild("Ragdolled").Value == true and AntiRagdoll then
-repeat task.wait() game.Players.LocalPlayer.Character.Torso.Anchored = true
-until game.Players.LocalPlayer.Character:WaitForChild("Ragdolled").Value == false
-game.Players.LocalPlayer.Character.Torso.Anchored = false
-end
-end)
-end)
-end
-                    end    
-                })
-Tab:AddToggle({
                     Name = "Anti Void (Works in tournament)",
                     Default = false,
                     Callback = function(Value)
