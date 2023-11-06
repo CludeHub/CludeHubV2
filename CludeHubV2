@@ -647,16 +647,4 @@ loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Cat-Hub-V2-
       		print("button pressed")
   	end    
 })
-local Tab = Window:MakeTab({
-        Name = "Home",
-        Icon = "rbxassetid://4483345998",
-        PremiumOnly = false
-})
-	Name = "Youtube",
-	Callback = function()
-setclipboard("https://m.youtube.com/channel/UCOAOxBpSqaMVPayZH0oE-yg")
-toclipboard("https://m.youtube.com/channel/UCOAOxBpSqaMVPayZH0oE-yg")
-      		print("button pressed")
-  	end    
-})
 OrionLib:Init()
