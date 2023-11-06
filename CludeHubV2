@@ -655,8 +655,6 @@ local Tab = Window:MakeTab({
 Tab:AddLabel("#Clude")
 Tab:AddLabel("Paul")
 Tab:AddLabel("c00lkidd")
-Tab:AddLabel("dont forget to like and subscribe to clude")
-Tab:AddLabel("Script Made By Paul")
 	Name = "Youtube",
 	Callback = function()
 setclipboard("https://m.youtube.com/channel/UCOAOxBpSqaMVPayZH0oE-yg")
