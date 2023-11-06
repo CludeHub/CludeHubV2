@@ -1,24 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/CludeHub/CludeHub/main/CludeHub')))()
 local Window = OrionLib:MakeWindow({Name = "CludeHub By Paul🔥", HidePremium = true, SaveConfig = true, ConfigFolder = "OrionLibrary"})
 local Tab = Window:MakeTab({
-	Name = "Home",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-local Section = Tab:AddSection({
-	Name = "Home"
-})
-Tab:AddLabel("dont forget to like and subscribe to clude")
-Tab:AddLabel("Script Made By Paul")
-Tab:AddButton({
-	Name = "Youtube",
-	Callback = function()
-setclipboard("https://m.youtube.com/channel/UCOAOxBpSqaMVPayZH0oE-yg")
-toclipboard("https://m.youtube.com/channel/UCOAOxBpSqaMVPayZH0oE-yg")
-      		print("button pressed")
-  	end    
-})
-local Tab = Window:MakeTab({
 	Name = "brookhaven",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
@@ -673,4 +655,14 @@ local Tab = Window:MakeTab({
 Tab:AddLabel("#Clude")
 Tab:AddLabel("Paul")
 Tab:AddLabel("c00lkidd")
+Tab:AddLabel("dont forget to like and subscribe to clude")
+Tab:AddLabel("Script Made By Paul")
+Tab:AddButton({
+	Name = "Youtube",
+	Callback = function()
+setclipboard("https://m.youtube.com/channel/UCOAOxBpSqaMVPayZH0oE-yg")
+toclipboard("https://m.youtube.com/channel/UCOAOxBpSqaMVPayZH0oE-yg")
+      		print("button pressed")
+  	end    
+})
 OrionLib:Init()
