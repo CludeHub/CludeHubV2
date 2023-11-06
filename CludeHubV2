@@ -648,13 +648,10 @@ loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Cat-Hub-V2-
   	end    
 })
 local Tab = Window:MakeTab({
-        Name = "Credit",
+        Name = "Home",
         Icon = "rbxassetid://4483345998",
         PremiumOnly = false
 })
-Tab:AddLabel("#Clude")
-Tab:AddLabel("Paul")
-Tab:AddLabel("c00lkidd")
 	Name = "Youtube",
 	Callback = function()
 setclipboard("https://m.youtube.com/channel/UCOAOxBpSqaMVPayZH0oE-yg")
