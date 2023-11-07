@@ -410,36 +410,6 @@ task.wait()
 end
 end
                 })
-Tab:AddToggle({
-                    Name = "Replica Slap Farm (Use default arena portal)",
-                    Default = false,
-                    Callback = function(Value)
-ReplicaFarm = Value
-if game.Players.LocalPlayer.leaderstats.Glove.Value == "Replica" and game.Players.LocalPlayer.Character.IsInDefaultArena.Value == true then
-if ReplicaFarm == true then
-coroutine.wrap(SpamReplica)()
-end
-while ReplicaFarm do
-for i, v in pairs(workspace:GetChildren()) do
-                if v.Name:match(game.Players.LocalPlayer.Name) and v:FindFirstChild("HumanoidRootPart") then
-game.ReplicatedStorage.b:FireServer(v:WaitForChild("HumanoidRootPart"))
-                end
-            end
-task.wait()
-                       end
-elseif ReplicaFarm == true then
-OrionLib:MakeNotification({Name = "Error",Content = "You don't have Replica equipped, or you aren't in the Default arena.",Image = "rbxassetid://7733658504",Time = 5})
-wait(0.05)
-RSF:Set(false)
-end
-end
-                })
-function SpamReplica()
-while ReplicaFarm do
-                           game:GetService("ReplicatedStorage").Duplicate:FireServer()
-                       wait(19.9)
-                       end
-end
 Tab:AddButton({
 	Name = "no cooldown",
 	Callback = function()
@@ -458,30 +428,6 @@ wait(0.1)
             end
       		print("button pressed")
   	end    
-})
-Tab:AddDropdown({
-	Name = "Teleport",
-	Default = "",
-	Options = {"Safe spot", "Arena",  "Default Arena", "Lobby", "Tournament", "Moai Island", "Slapple Island", "Plate"},
-	Callback = function(Value)
-if Value == "Safe spot" then
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Spot.CFrame * CFrame.new(0,28,0)
-elseif Value == "Arena" then
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.workspace.Origo.CFrame * CFrame.new(0,-5,0)
-elseif Value == "Moai Island" then
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(215, -15.5, 0.5)
-elseif Value == "Slapple Island" then
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.workspace.Arena.island5.Union.CFrame * CFrame.new(0,3.25,0)
-elseif Value == "Plate" then
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Arena.Plate.CFrame * CFrame.new(0,2,0)
-elseif Value == "Tournament" then
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Battlearena.Arena.CFrame * CFrame.new(0,10,0)
-elseif Value == "Default Arena" then
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(120,360,-3)
-elseif Value == "Lobby" then
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-800,328,-2.5)
-end
-	end    
 })
 Tab:AddButton({
 	Name = "god mode",
@@ -502,47 +448,6 @@ tool.Parent = character
 character.HumanoidRootPart.CFrame = game.Workspace.Origo.CFrame
       		print("button pressed")
   	end    
-})
-Tab:AddButton({
-	Name = "Get Tycoon",
-	Callback = function()
-      		repeat task.wait()
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Arena.Plate.CFrame * CFrame.new(0,-2,0) * CFrame.Angles(math.rad(90), math.rad(0), math.rad(0))
-until game.Players.LocalPlayer.PlayerGui.PlateIndicator.TextLabel.Text == "Plate Counter: 600"
-                    end    
-                })
-Tab:AddToggle({
-	Name = "Jet Farm",
-	Default = false,
-	Callback = function(Value)
-Jetfarm = Value
-while Jetfarm do
-for i,v in pairs(game.Workspace:GetChildren()) do
-                    if v.Name == "JetOrb" and v:FindFirstChild("TouchInterest") then
-firetouchinterest(game.Players.LocalPlayer.Character:WaitForChild("Head"), v, 0)
-firetouchinterest(game.Players.LocalPlayer.Character:WaitForChild("Head"), v, 1)
-                    end
-                end
-task.wait()
-end
-	end    
-})
-
-Tab:AddToggle({
-	Name = "Phase Farm",
-	Default = false,
-	Callback = function(Value)
-Phasefarm = Value
-while Phasefarm do
-for i,v in pairs(game.Workspace:GetChildren()) do
-                    if v.Name == "PhaseOrb" and v:FindFirstChild("TouchInterest") then
-firetouchinterest(game.Players.LocalPlayer.Character:WaitForChild("Head"), v, 0)
-firetouchinterest(game.Players.LocalPlayer.Character:WaitForChild("Head"), v, 1)
-                    end
-                end
-task.wait()
-end
-	end    
 })
 Tab:AddButton({
 	Name = "ESP",
