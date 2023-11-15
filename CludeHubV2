@@ -209,7 +209,7 @@ loadstring(game:HttpGet('https://pastebin.com/raw/yBawVcE7'))()
 Tab:AddButton({
        Name = "manual spam",
        Callback = function()
-loadstring(game:HttpGet('https://pastebin.com/raw/KB4xQe4j'))()
+loadstring(game:HttpGet('https://pastebin.com/raw/Q6dHQjSH'))()
                 print("button pressed")
         end
 })
