@@ -550,6 +550,9 @@ local Tab = Window:MakeTab({
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
+local Section = Tab:AddSection({
+	Name = "sad song"
+})
 Tab:AddButton({
 	Name = "Surf Freaks",
 	Callback = function()
@@ -597,6 +600,9 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
     Duration = 16;
       		print("button pressed")
   	end    
+})
+local Section = Tab:AddSection({
+	Name = "phonk"
 })
 Tab:AddButton({
 	Name = "Baller",
@@ -742,6 +748,9 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
       		print("button pressed")
   	end    
 })
+local Section = Tab:AddSection({
+	Name = "modern"
+})
 Tab:AddButton({
 	Name = "HOURS",
 	Callback = function()
@@ -885,6 +894,9 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
     Duration = 16;
       		print("button pressed")
   	end    
+})
+local Section = Tab:AddSection({
+	Name = "meme"
 })
 Tab:AddButton({
 	Name = "Thang ina lugi ako don",
