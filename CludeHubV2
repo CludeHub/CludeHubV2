@@ -234,9 +234,51 @@ while _G.bruh do
     wait()
  
 for _,v in next, game.Workspace:GetDescendants() do
+if v.Name == "" then
+    v.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+    elseif v.Name == "" then
+        v.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+        elseif v.Name == "Hoop" then 
+            v.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+    end
+end
+end
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "auto orb",
+	Callback = function()
+_G.bruh = true
+while _G.bruh do 
+    wait()
+ 
+for _,v in next, game.Workspace:GetDescendants() do
 if v.Name == "outerOrb" then
     v.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
-        elseif v.Name == "Hoop" then 
+    elseif v.Name == "" then
+        v.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+        elseif v.Name == "" then 
+            v.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+    end
+end
+end
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "auto gem",
+	Callback = function()
+_G.bruh = true
+while _G.bruh do 
+    wait()
+ 
+for _,v in next, game.Workspace:GetDescendants() do
+if v.Name == "" then
+    v.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+    elseif v.Name == "outerGem" then
+        v.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+        elseif v.Name == "" then 
             v.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
     end
 end
