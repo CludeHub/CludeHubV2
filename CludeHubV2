@@ -13,6 +13,20 @@ OrionLib:Destroy()
       		print("button pressed")
   	end    
 })
+Tab:AddButton({
+      Name = "Keyboard",
+     Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt"))()
+               print("button pressed")
+       end
+})
+Tab:AddButton({
+      Name = "Clude Gui HackV2",
+     Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CludeHub/Clude-Gui-V2/main/Clude-Gui-V2-017263Auushks-LLl-exe-Exploit"))()
+               print("button pressed")
+       end
+})
 local Tab = Window:MakeTab({
 	Name = "brookhaven🏡",
 	Icon = "rbxassetid://4483345998",
