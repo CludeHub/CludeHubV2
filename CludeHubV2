@@ -980,4 +980,32 @@ game.Players.LocalPlayer:Kick("i said coming soon")
       		print("button pressed")
   	end    
 })
+local Tab = Window:MakeTab({
+	Name = "Server Side📜",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "backdoor",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "synapse x",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "delta",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})Tab:AddButton({
+	Name = "shitexploit",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
 OrionLib:Init()
