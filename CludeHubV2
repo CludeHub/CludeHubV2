@@ -237,7 +237,7 @@ loadstring(game:HttpGet("https://scriptblox.com/raw/UPD-Blade-Ball-Red-Circle-Au
 Tab:AddButton({
   Name = "freeze ball",
   Callback = function()
-loadstring(game:HttpGet("https://scriptblox.com/raw/UPD-Blade-Ball-infinity-Freeze-8480"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CludeHub/BladeBall/main/BladeBall"))()
            print("button pressed")
 end
 })
