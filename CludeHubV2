@@ -27,76 +27,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/CludeHub/Clude-Gui-V2
                print("button pressed")
        end
 })
-local Tab = Window:MakeTab({
-	Name = "Ragdoll egine📶",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-local Section = Tab:AddSection({
-	Name = "antis"
-})
-Tab:AddButton({
-	Name = "anti ragdoll",
-	Callback = function()
-getglobal game
-getfield -1 Players
-getfield -1 LocalPlayer
-getfield -1 Character
-getfield -1 WaitForChild
-pushvalue -2
-pushstring Local Ragdoll
-pcall 2 1 0
-getfield -1 Destroy
-pushvalue -2
-pcall 1 0 0
-      		print("button pressed")
-  	end    
-})
-Tab:AddButton({
-	Name = "anti push",
-	Callback = function()
-getglobal game
-getfield -1 Players
-getfield -1 LocalPlayer
-getfield -1 Character
-getfield -1 WaitForChild
-pushvalue -2
-pushstring Local Ragdoll
-pcall 2 1 0
-getfield -1 Destroy
-pushvalue -2
-pcall 1 0 0
-      		print("button pressed")
-  	end    
-})
-local Section = Tab:AddSection({
-	Name = "misc"
-})
 Tab:AddButton({
 	Name = "noclip",
 	Callback = function()
 https://pastebin.com/raw/2Hr35s7p
-      		print("button pressed")
-  	end    
-})
-Tab:AddButton({
-	Name = "sword",
-	Callback = function()
-loadstring(game:HttpGet("https://pastebin.com/raw/mhxekj7V"))()
-      		print("button pressed")
-  	end    
-})
-Tab:AddButton({
-	Name = "clone illusion",
-	Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe/main/obf_11l7Y131YqJjZ31QmV5L8pI23V02b3191sEg26E75472Wl78Vi8870jRv5txZyL1.lua.txt"))()
-      		print("button pressed")
-  	end    
-})
-Tab:AddButton({
-	Name = "invisible",
-	Callback = function()
-loadstring(game:HttpGet("https://pastebin.com/raw/ZAV8nXQD"))()
       		print("button pressed")
   	end    
 })
@@ -271,6 +205,27 @@ loadstring(game:HttpGet('https://pastebin.com/raw/nj3F5beU'))()
 })
 local Section = Tab:AddSection({
 	Name = "other scripts"
+})
+Tab:AddButton({
+	Name = "sword",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/mhxekj7V"))()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "clone illusion",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe/main/obf_11l7Y131YqJjZ31QmV5L8pI23V02b3191sEg26E75472Wl78Vi8870jRv5txZyL1.lua.txt"))()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "invisible",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/ZAV8nXQD"))()
+      		print("button pressed")
+  	end    
 })
 Tab:AddButton({
 	Name = "infinite yield",
