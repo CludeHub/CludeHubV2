@@ -1,7 +1,20 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "CludeHub By Paul🔥", HidePremium = true, SaveConfig = true, ConfigFolder = "OrionLibrary"})
 local Tab = Window:MakeTab({
-	Name = "brookhaven",
+	Name = "Home🏠",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddLabel("Subscribe to clude80")
+Tab:AddButton({
+	Name = "Destroy",
+	Callback = function()
+OrionLib:Destroy()
+      		print("button pressed")
+  	end    
+})
+local Tab = Window:MakeTab({
+	Name = "brookhaven🏡",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -180,7 +193,7 @@ loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\
   	end    
 })
 local Tab = Window:MakeTab({
-	Name = "Blox fruit",
+	Name = "Blox fruit🍇",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -192,7 +205,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Minhtriettt/Free-Scri
   	end    
 })
 local Tab = Window:MakeTab({
-	Name = "Blade Ball",
+	Name = "Blade Ball⚔️",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -235,7 +248,7 @@ loadstring(game:HttpGet("https://scriptblox.com/raw/UPD-Blade-Ball-Red-Circle-Au
    end
 })
 Tab:AddButton({
-  Name = "freeze ball",
+  Name = "Hub",
   Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CludeHub/BladeBall/main/BladeBall"))()
            print("button pressed")
@@ -379,7 +392,7 @@ Tab:AddButton({
 end
 })
 local Tab = Window:MakeTab({
-	Name = "Slap Battle",
+	Name = "Slap Battle👋",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -451,7 +464,7 @@ loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-3d-Box-ESP-
   	end    
 })
 local Tab = Window:MakeTab({
-	Name = "Fe visual script",
+	Name = "Fe visual script🌀",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -505,7 +518,7 @@ loadstring(game:HttpGet('https://pastebin.com/raw/ULhHc800'))()
   	end    
 })
 local Tab = Window:MakeTab({
-	Name = "prison life",
+	Name = "prison life💰",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -531,7 +544,7 @@ loadstring(game:HttpGet('https://pastebin.com/raw/e5qZM9ns'))()
   	end    
 })
 local Tab = Window:MakeTab({
-	Name = "Pet Sim X",
+	Name = "Pet Sim X🐱",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -546,7 +559,7 @@ loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Cat-Hub-V2-
   	end    
 })
 local Tab = Window:MakeTab({
-	Name = "song",
+	Name = "song🎵",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
