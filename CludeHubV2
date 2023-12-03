@@ -550,4 +550,395 @@ local Tab = Window:MakeTab({
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
+Tab:AddButton({
+	Name = "Surf Freaks",
+	Callback = function()
+s = Instance.new("Sound")
+ s.Name = "Music"
+ s.SoundId = "http://www.roblox.com/asset/?id=6703926669" --Put the id into there.
+ s.Looped = false
+ s.Pitch = 1 --You can edit these settings.
+ s.Volume = 5 --You can edit these settings.
+ s.archivable = false
+ 
+  s.Parent = game.Workspace
+
+
+s:play()
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+        Title = "Clude";
+        Text = "Thanks For Using My Script!";
+        Icon = "rbxthumb://type=Asset&id=15138828737&w=150&h=150"})
+    Duration = 16;
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "Lunna",
+	Callback = function()
+s = Instance.new("Sound")
+ s.Name = "Music"
+ s.SoundId = "http://www.roblox.com/asset/?id=1838457617" --Put the id into there.
+ s.Looped = false
+ s.Pitch = 1 --You can edit these settings.
+ s.Volume = 5 --You can edit these settings.
+ s.archivable = false
+ 
+  s.Parent = game.Workspace
+
+
+s:play()
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+        Title = "Clude";
+        Text = "Thanks For Using My Script!";
+        Icon = "rbxthumb://type=Asset&id=15138828737&w=150&h=150"})
+    Duration = 16;
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "Baller",
+	Callback = function()
+s = Instance.new("Sound")
+ s.Name = "Music"
+ s.SoundId = "http://www.roblox.com/asset/?id=13530439660" --Put the id into there.
+ s.Looped = false
+ s.Pitch = 1 --You can edit these settings.
+ s.Volume = 100 --You can edit these settings.
+ s.archivable = false
+ 
+  s.Parent = game.Workspace
+
+
+s:play()
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+        Title = "Clude";
+        Text = "Thanks For Using My Script!";
+        Icon = "rbxthumb://type=Asset&id=15138828737&w=150&h=150"})
+    Duration = 16;
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "PK",
+	Callback = function()
+s = Instance.new("Sound")
+ s.Name = "Music"
+ s.SoundId = "http://www.roblox.com/asset/?id=14145620056" --Put the id into there.
+ s.Looped = false
+ s.Pitch = 1 --You can edit these settings.
+ s.Volume = 100 --You can edit these settings.
+ s.archivable = false
+ 
+  s.Parent = game.Workspace
+
+
+s:play()
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+        Title = "Clude";
+        Text = "Thanks For Using My Script!";
+        Icon = "rbxthumb://type=Asset&id=15138828737&w=150&h=150"})
+    Duration = 16;
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "Why Not?",
+	Callback = function()
+s = Instance.new("Sound")
+ s.Name = "Music"
+ s.SoundId = "http://www.roblox.com/asset/?id=11010019801" --Put the id into there.
+ s.Looped = false
+ s.Pitch = 1 --You can edit these settings.
+ s.Volume = 100 --You can edit these settings.
+ s.archivable = false
+ 
+  s.Parent = game.Workspace
+
+
+s:play()
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+        Title = "Clude";
+        Text = "Thanks For Using My Script!";
+        Icon = "rbxthumb://type=Asset&id=15138828737&w=150&h=150"})
+    Duration = 16;
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "Catch my drift",
+	Callback = function()
+s = Instance.new("Sound")
+ s.Name = "Music"
+ s.SoundId = "http://www.roblox.com/asset/?id=14145627857" --Put the id into there.
+ s.Looped = false
+ s.Pitch = 1 --You can edit these settings.
+ s.Volume = 100 --You can edit these settings.
+ s.archivable = false
+ 
+  s.Parent = game.Workspace
+
+
+s:play()
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+        Title = "Clude";
+        Text = "Thanks For Using My Script!";
+        Icon = "rbxthumb://type=Asset&id=15138828737&w=150&h=150"})
+    Duration = 16;
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "High speed",
+	Callback = function()
+s = Instance.new("Sound")
+ s.Name = "Music"
+ s.SoundId = "http://www.roblox.com/asset/?id=14145618642" --Put the id into there.
+ s.Looped = false
+ s.Pitch = 1 --You can edit these settings.
+ s.Volume = 100 --You can edit these settings.
+ s.archivable = false
+ 
+  s.Parent = game.Workspace
+
+
+s:play()
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+        Title = "Clude";
+        Text = "Thanks For Using My Script!";
+        Icon = "rbxthumb://type=Asset&id=15138828737&w=150&h=150"})
+    Duration = 16;
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "Disoster",
+	Callback = function()
+s = Instance.new("Sound")
+ s.Name = "Music"
+ s.SoundId = "http://www.roblox.com/asset/?id=14145625078" --Put the id into there.
+ s.Looped = false
+ s.Pitch = 1 --You can edit these settings.
+ s.Volume = 100 --You can edit these settings.
+ s.archivable = false
+ 
+  s.Parent = game.Workspace
+
+
+s:play()
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+        Title = "Clude";
+        Text = "Thanks For Using My Script!";
+        Icon = "rbxthumb://type=Asset&id=15138828737&w=150&h=150"})
+    Duration = 16;
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "HOURS",
+	Callback = function()
+s = Instance.new("Sound")
+ s.Name = "Music"
+ s.SoundId = "http://www.roblox.com/asset/?id=7028932563" --Put the id into there.
+ s.Looped = false
+ s.Pitch = 1 --You can edit these settings.
+ s.Volume = 5 --You can edit these settings.
+ s.archivable = false
+ 
+  s.Parent = game.Workspace
+
+
+s:play()
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+        Title = "Clude";
+        Text = "Thanks For Using My Script!";
+        Icon = "rbxthumb://type=Asset&id=15138828737&w=150&h=150"})
+    Duration = 16;
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "No sleep",
+	Callback = function()
+s = Instance.new("Sound")
+ s.Name = "Music"
+ s.SoundId = "http://www.roblox.com/asset/?id=7029011778" --Put the id into there.
+ s.Looped = false
+ s.Pitch = 1 --You can edit these settings.
+ s.Volume = 5 --You can edit these settings.
+ s.archivable = false
+ 
+  s.Parent = game.Workspace
+
+
+s:play()
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+        Title = "Clude";
+        Text = "Thanks For Using My Script!";
+        Icon = "rbxthumb://type=Asset&id=15138828737&w=150&h=150"})
+    Duration = 16;
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "little girls",
+	Callback = function()
+s = Instance.new("Sound")
+ s.Name = "Music"
+ s.SoundId = "http://www.roblox.com/asset/?id=1835737554" --Put the id into there.
+ s.Looped = false
+ s.Pitch = 1 --You can edit these settings.
+ s.Volume = 5 --You can edit these settings.
+ s.archivable = false
+ 
+  s.Parent = game.Workspace
+
+
+s:play()
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+        Title = "Clude";
+        Text = "Thanks For Using My Script!";
+        Icon = "rbxthumb://type=Asset&id=15138828737&w=150&h=150"})
+    Duration = 16;
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "enigama",
+	Callback = function()
+s = Instance.new("Sound")
+ s.Name = "Music"
+ s.SoundId = "http://www.roblox.com/asset/?id=5410084645" --Put the id into there.
+ s.Looped = false
+ s.Pitch = 1 --You can edit these settings.
+ s.Volume = 5 --You can edit these settings.
+ s.archivable = false
+ 
+  s.Parent = game.Workspace
+
+
+s:play()
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+        Title = "Clude";
+        Text = "Thanks For Using My Script!";
+        Icon = "rbxthumb://type=Asset&id=15138828737&w=150&h=150"})
+    Duration = 16;
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "Challenge",
+	Callback = function()
+s = Instance.new("Sound")
+ s.Name = "Music"
+ s.SoundId = "http://www.roblox.com/asset/?id=6969006426" --Put the id into there.
+ s.Looped = false
+ s.Pitch = 1 --You can edit these settings.
+ s.Volume = 100 --You can edit these settings.
+ s.archivable = false
+ 
+  s.Parent = game.Workspace
+
+
+s:play()
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+        Title = "Clude";
+        Text = "Thanks For Using My Script!";
+        Icon = "rbxthumb://type=Asset&id=15138828737&w=150&h=150"})
+    Duration = 16;
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "you and me",
+	Callback = function()
+s = Instance.new("Sound")
+ s.Name = "Music"
+ s.SoundId = "http://www.roblox.com/asset/?id=1837091846" --Put the id into there.
+ s.Looped = false
+ s.Pitch = 1 --You can edit these settings.
+ s.Volume = 5 --You can edit these settings.
+ s.archivable = false
+ 
+  s.Parent = game.Workspace
+
+
+s:play()
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+        Title = "Clude";
+        Text = "Thanks For Using My Script!";
+        Icon = "rbxthumb://type=Asset&id=15138828737&w=150&h=150"})
+    Duration = 16;
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "Thang ina lugi ako don",
+	Callback = function()
+s = Instance.new("Sound")
+ s.Name = "Music"
+ s.SoundId = "http://www.roblox.com/asset/?id=6186570492" --Put the id into there.
+ s.Looped = false
+ s.Pitch = 1 --You can edit these settings.
+ s.Volume = 5 --You can edit these settings.
+ s.archivable = false
+ 
+  s.Parent = game.Workspace
+
+
+s:play()
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+        Title = "Clude";
+        Text = "Thanks For Using My Script!";
+        Icon = "rbxthumb://type=Asset&id=15138828737&w=150&h=150"})
+    Duration = 16;
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "puthang ina mo",
+	Callback = function()
+s = Instance.new("Sound")
+ s.Name = "Music"
+ s.SoundId = "http://www.roblox.com/asset/?id=752956683" --Put the id into there.
+ s.Looped = false
+ s.Pitch = 1 --You can edit these settings.
+ s.Volume = 100 --You can edit these settings.
+ s.archivable = false
+ 
+  s.Parent = game.Workspace
+
+
+s:play()
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+        Title = "Clude";
+        Text = "Thanks For Using My Script!";
+        Icon = "rbxthumb://type=Asset&id=15138828737&w=150&h=150"})
+    Duration = 16;
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "coming soon",
+	Callback = function()
+game.Players.LocalPlayer:Kick("i said coming soon")
+      		print("button pressed")
+  	end    
+})
 OrionLib:Init()
