@@ -229,7 +229,18 @@ local Section = Tab:AddSection({
 Tab:AddButton({
 	Name = "auto hoop",
 	Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/17"))()
+_G.bruh = true
+while _G.bruh do 
+    wait()
+ 
+for _,v in next, game.Workspace:GetDescendants() do
+if v.Name == "outerOrb" then
+    v.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+        elseif v.Name == "Hoop" then 
+            v.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+    end
+end
+end
       		print("button pressed")
   	end    
 })
