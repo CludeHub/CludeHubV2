@@ -1143,4 +1143,37 @@ loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Fluxus-Cora
       		print("button pressed")
   	end    
 })
+local Tab = Window:MakeTab({
+	Name = "Shaders☀️",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Section = Tab:AddSection({
+	Name = "RTX"
+})
+Tab:AddButton({
+	Name = "Summer",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/Qunce5TP"))()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "night",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "snow",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "raining",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
 OrionLib:Init()
