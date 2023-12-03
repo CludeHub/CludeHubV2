@@ -286,6 +286,13 @@ end
       		print("button pressed")
   	end    
 })
+Tab:AddButton({
+	Name = "auto level",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/17"))()
+      		print("button pressed")
+  	end    
+})
 local Tab = Window:MakeTab({
 	Name = "Blade Ball⚔️",
 	Icon = "rbxassetid://4483345998",
