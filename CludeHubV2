@@ -545,4 +545,9 @@ loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Cat-Hub-V2-
       		print("button pressed")
   	end    
 })
+local Tab = Window:MakeTab({
+	Name = "song",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
 OrionLib:Init()
