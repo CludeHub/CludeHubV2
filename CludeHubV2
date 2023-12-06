@@ -3896,6 +3896,9 @@ local Tab = Window:MakeTab({
 Tab:AddParagraph("CludeHub|ScriptHub","Hi this is me, Paul today this is my new CludeHub, so you guys and all exploiters dont steal this script Subscribe to my Channel name -- clude80 -- and this script was made on November 29 2023 and was uploaded on december 7 2023")
 Tab:AddLabel("Pet Simulator x|Script Hub")
 local Section = Tab:AddSection({
+	Name = ""
+})
+local Section = Tab:AddSection({
 	Name = "Pet sim"
 })
 Tab:AddButton({
@@ -3913,6 +3916,9 @@ Tab:AddButton({
 })
 Tab:AddLabel("Blade Ball|Script Hub")
 local Section = Tab:AddSection({
+	Name = ""
+})
+local Section = Tab:AddSection({
 	Name = "Blade ball"
 })
 Tab:AddButton({
@@ -3929,6 +3935,9 @@ Tab:AddButton({
 })
 Tab:AddLabel("Brookhaven|Script Hub")
 local Section = Tab:AddSection({
+	Name = ""
+})
+local Section = Tab:AddSection({
 	Name = "Brookhaven"
 })
 Tab:AddButton({
@@ -3944,6 +3953,9 @@ Tab:AddButton({
   	end    
 })
 Tab:AddLabel("Blox fruit|Script Hub")
+local Section = Tab:AddSection({
+	Name = ""
+})
 local Section = Tab:AddSection({
 	Name = "Blox Fruit"
 })
