@@ -4122,6 +4122,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/ionlyusegithubformcm
 Tab:AddButton({
 	Name = "r20",
 	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/cheesynob39/R2O/main/Games/6403373529.lua"))()
       		print("button pressed")
   	end    
 })
