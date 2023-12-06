@@ -43,7 +43,7 @@ local Tab = Window:MakeTab({
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
-Tab:AddLabel("Subscribe to clude80")
+Tab:AddParagraph("CludeHub","A script have so many features amd buttons and its like so many day to make it")
 Tab:AddButton({
 	Name = "Destroy",
 	Callback = function()
@@ -3915,15 +3915,13 @@ game.Lighting:SetMinutesAfterMidnight(0)
       		print("button pressed")
   	end    
 })
+Tab:AddParagraph("CludeHub Shaders","a script that make your game cool and realistic")
 local Tab = Window:MakeTab({
 	Name = "Script Hubs☄️",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
-Tab:AddParagraph("CludeHub|ScriptHub","Hi this is me, Paul today this is my new CludeHub, so you guys and all exploiters dont steal this script Subscribe to my Channel name -- clude80 -- and this script was made on November 29 2023 and was uploaded on december 7 2023☄️")
-local Section = Tab:AddSection({
-	Name = ""
-})
+Tab:AddParagraph("Paragrap","Paragraph Content")
 Tab:AddLabel("Advertisement☄️|Script Hub")
 local Section = Tab:AddSection({
 	Name = "Hub"
