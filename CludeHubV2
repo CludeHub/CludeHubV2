@@ -81,16 +81,65 @@ Tab:AddButton({
   	end    
 })
 Tab:AddButton({
-	Name = "Button!",
+	Name = "Launch launch iland",
 	Callback = function()
+fireclickdetector(game:GetService("Workspace").Structure["Launch Land"]["SPACESHIP!!"].Shuttle.IgnitionButton.ClickDetector)
+fireclickdetector(game:GetService("Workspace").Structure["Launch Land"].RocketStand.ConsoleLower.ReleaseButtonLower.ClickDetector)
+fireclickdetector(game:GetService("Workspace").Structure["Launch Land"].RocketStand.ConsoleUpper.ReleaseButtonUpper.ClickDetector)
+fireclickdetector(game:GetService("Workspace").Structure["Launch Land"].LoadingTower.Console.ReleaseEntryBridge.ClickDetector)
       		print("button pressed")
   	end    
 })
 Tab:AddDropdown({
-	Name = "Dropdown",
+	Name = "Color",
 	Default = "1",
-	Options = {"1", "2"},
+	Options = {"Black", "White", "Purple", "Cyan", "Reset"},
 	Callback = function(Value)
+if Value == "Black" then do
+				game.Workspace.WaterLevel.BrickColor = BrickColor.new("Black")
+				game.Workspace.Structure.FloodLevel.BrickColor = BrickColor.new("Black")
+				local Children = game.Workspace.TsunamiWave:GetChildren()
+				for a = 1, #Children do
+					Children[a].BrickColor = BrickColor.new("Black")
+				end
+			end
+		end
+		if Value == "White" then do
+				game.Workspace.WaterLevel.BrickColor = BrickColor.new("White")
+				game.Workspace.Structure.FloodLevel.BrickColor = BrickColor.new("White")
+				local Children = game.Workspace.TsunamiWave:GetChildren()
+				for a = 1, #Children do
+					Children[a].BrickColor = BrickColor.new("White")
+				end
+			end
+		end
+if Value == "Purple" then do
+				game.Workspace.WaterLevel.BrickColor = BrickColor.new("Bright violet")
+				game.Workspace.Structure.FloodLevel.BrickColor = BrickColor.new("Bright violet")
+				local Children = game.Workspace.TsunamiWave:GetChildren()
+				for a = 1, #Children do
+					Children[a].BrickColor = BrickColor.new("Bright violet")
+				end
+			end
+		end
+		if Value == "Cyan" then do
+				game.Workspace.WaterLevel.BrickColor = BrickColor.new("Cyan")
+				game.Workspace.Structure.FloodLevel.BrickColor = BrickColor.new("Cyan")
+				local Children = game.Workspace.TsunamiWave:GetChildren()
+				for a = 1, #Children do
+					Children[a].BrickColor = BrickColor.new("Cyan")
+				end
+			end
+		end
+if Value == "Reset" then do
+				game.Workspace.WaterLevel.BrickColor = BrickColor.new("Bright blue")
+				game.Workspace.Structure.FloodLevel.BrickColor = BrickColor.new("Bright blue")
+				local Children = game.Workspace.TsunamiWave:GetChildren()
+				for a = 1, #Children do
+					Children[a].BrickColor = BrickColor.new("Bright blue")
+				end
+			end
+		end
 		print(Value)
 	end    
 })
