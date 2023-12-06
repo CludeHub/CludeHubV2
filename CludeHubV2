@@ -4048,21 +4048,23 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Fiend1sh/FiendMain/ma
   	end    
 })
 Tab:AddButton({
-	Name = "EGO HUB",
+	Name = "EGO HUB(key needed) ",
 	Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/SuperIkka/Main/main/EgoLoaderMain", true))()
       		print("button pressed")
   	end    
 })
 Tab:AddButton({
-	Name = "",
+	Name = "Ripper Hub",
 	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hajibeza/RIPPER-HUB/main/NEWBF.lua"))()
       		print("button pressed")
   	end    
 })
 Tab:AddButton({
-	Name = "",
+	Name = "Tuper x Hub",
 	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TUPERX/TUPERX/Main/MenuBF/README.md"))()
       		print("button pressed")
   	end    
 })
