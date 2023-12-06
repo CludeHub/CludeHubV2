@@ -3896,7 +3896,7 @@ local Tab = Window:MakeTab({
 local Section = Tab:AddSection({
 	Name = "Hub"
 })
-Tab:AddParagraph("Hi this is me, Paul today this is my new CludeHub, so you guys and all exploiters dont steal this script Subscribe to my Channel name -- clude80 --","CludeHub ScriptHub")
+Tab:AddParagraph("CludeHub|ScriptHub","Hi this is me, Paul today this is my new CludeHub, so you guys and all exploiters dont steal this script Subscribe to my Channel name -- clude80 --")
 Tab:AddButton({
 	Name = "",
 	Callback = function()
