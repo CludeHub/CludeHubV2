@@ -3932,8 +3932,9 @@ loadstring(game:HttpGet("https://pastebin.com/raw/E07Wyg7L"))()
   	end    
 })
 Tab:AddButton({
-	Name = "",
+	Name = "FFJ1",
 	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/autoparryEvent.lua"))()
       		print("button pressed")
   	end    
 })
