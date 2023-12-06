@@ -110,13 +110,6 @@ Tab:AddButton({
 game.Players.LocalPlayer.PlayerGui.SandStormGui:destroy()
 	end
 })
-Tab:AddButton({
-	Text = "Remove Blizzard GUI",
-	Callback = function()
-		game.Players.LocalPlayer.PlayerGui.BlizzardGui:destroy()
-      		print("button pressed")
-  	end    
-})
 Tab:AddDropdown({
 	Name = "Water Color",
 	Default = "1",
