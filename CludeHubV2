@@ -3993,14 +3993,16 @@ local Section = Tab:AddSection({
 	Name = "Piano"
 })
 Tab:AddButton({
-	Name = "",
+	Name = "Auto Piano V3|2",
 	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/3.2Lol/main/AutoPiano3-2.lua", true))()
       		print("button pressed")
   	end    
 })
 Tab:AddButton({
-	Name = "",
+	Name = "Auto Piano V3|3",
 	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MADNESSTEST/iq8if/main/owodjjb.lua", true))()
       		print("button pressed")
   	end    
 })
@@ -4026,6 +4028,13 @@ Tab:AddButton({
 	Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/TheHanki/Hawk/main/Loader", true))()
 
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "Prison Breaker",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/D8nkhYbJ"))()
       		print("button pressed")
   	end    
 })
