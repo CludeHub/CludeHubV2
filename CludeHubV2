@@ -257,7 +257,7 @@ local Tab = Window:MakeTab({
 Tab:AddButton({
 	Name = "Blox Fruit Loader",
 	Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Minhtriettt/Free-Script/main/MTriet-Hub.lua"))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/1st-Mars/Annie/main/1st.lua'))()
       		print("button pressed")
   	end    
 })
