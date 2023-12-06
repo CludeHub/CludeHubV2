@@ -3889,12 +3889,18 @@ game.Lighting:SetMinutesAfterMidnight(0)
   	end    
 })
 local Tab = Window:MakeTab({
-	Name = "Hub",
+	Name = "Hubs☄️",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
-Tab:AddParagraph("CludeHub|ScriptHub","Hi this is me, Paul today this is my new CludeHub, so you guys and all exploiters dont steal this script Subscribe to my Channel name -- clude80 -- and this script was made on November 29 2023 and was uploaded on december 7 2023")
-Tab:AddLabel("Pet Simulator x|Script Hub")
+Tab:AddParagraph("CludeHub|ScriptHub","Hi this is me, Paul today this is my new CludeHub, so you guys and all exploiters dont steal this script Subscribe to my Channel name -- clude80 -- and this script was made on November 29 2023 and was uploaded on december 7 2023☄️")
+local Section = Tab:AddSection({
+	Name = ""
+})
+local Section = Tab:AddSection({
+	Name = ""
+})
+Tab:AddLabel("Pet Simulator x☄️|Script Hub")
 local Section = Tab:AddSection({
 	Name = ""
 })
@@ -3914,7 +3920,13 @@ Tab:AddButton({
       		print("button pressed")
   	end    
 })
-Tab:AddLabel("Blade Ball|Script Hub")
+local Section = Tab:AddSection({
+	Name = ""
+})
+local Section = Tab:AddSection({
+	Name = ""
+})
+Tab:AddLabel("Blade Ball☄️|Script Hub")
 local Section = Tab:AddSection({
 	Name = ""
 })
@@ -3933,7 +3945,13 @@ Tab:AddButton({
       		print("button pressed")
   	end    
 })
-Tab:AddLabel("Brookhaven|Script Hub")
+local Section = Tab:AddSection({
+	Name = ""
+})
+local Section = Tab:AddSection({
+	Name = ""
+})
+Tab:AddLabel("Brookhaven☄️|Script Hub")
 local Section = Tab:AddSection({
 	Name = ""
 })
@@ -3942,6 +3960,32 @@ local Section = Tab:AddSection({
 })
 Tab:AddButton({
 	Name = "ice hub",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+local Section = Tab:AddSection({
+	Name = ""
+})
+local Section = Tab:AddSection({
+	Name = ""
+})
+Tab:AddLabel("Blox fruit☄️|Script Hub")
+local Section = Tab:AddSection({
+	Name = ""
+})
+local Section = Tab:AddSection({
+	Name = "Blox Fruit"
+})
+Tab:AddButton({
+	Name = "",
 	Callback = function()
       		print("button pressed")
   	end    
@@ -3952,12 +3996,43 @@ Tab:AddButton({
       		print("button pressed")
   	end    
 })
-Tab:AddLabel("Blox fruit|Script Hub")
 local Section = Tab:AddSection({
 	Name = ""
 })
 local Section = Tab:AddSection({
-	Name = "Blox Fruit"
+	Name = ""
+})
+Tab:AddLabel("Piano☄️|Script Hub")
+local Section = Tab:AddSection({
+	Name = ""
+})
+local Section = Tab:AddSection({
+	Name = "Piano"
+})
+Tab:AddButton({
+	Name = "",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+local Section = Tab:AddSection({
+	Name = ""
+})
+local Section = Tab:AddSection({
+	Name = ""
+})
+Tab:AddLabel("Prison Life☄️|Script Hub")
+local Section = Tab:AddSection({
+	Name = ""
+})
+local Section = Tab:AddSection({
+	Name = "stuff"
 })
 Tab:AddButton({
 	Name = "",
