@@ -79,6 +79,7 @@ local Section = Tab:AddSection({
 Tab:AddButton({
       Name = "Hub",
      Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/LiverMods/Rawnder-NTDR/main/NaturalDisaster'))()
                print("button pressed")
        end
 })
