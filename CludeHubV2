@@ -4021,8 +4021,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Fiend1sh/FiendMain/ma
   	end    
 })
 Tab:AddButton({
-	Name = "",
+	Name = "EGO HUB",
 	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SuperIkka/Main/main/EgoLoaderMain", true))()
       		print("button pressed")
   	end    
 })
