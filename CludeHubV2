@@ -69,6 +69,21 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 Tab:AddToggle({
+	Name = "Walk on Water",
+	Default = false,
+	Callback = function(Value)
+if Value == false then do game.Workspace.WaterLevel.CanCollide = false
+				game.Workspace.WaterLevel.Size = Vector3.new(10, 1, 10)
+			end
+		end
+		if Value == true then do game.Workspace.WaterLevel.CanCollide = true
+				game.Workspace.WaterLevel.Size = Vector3.new(1000, 1, 1000)
+			end
+		end
+		print(Value)
+	end    
+})
+Tab:AddToggle({
 	Name = "Dark Mode",
 	Default = false,
 	Callback = function(Value)
