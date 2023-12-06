@@ -1,6 +1,6 @@
 local httpService = game:GetService("HttpService");
 
-local invCode = "xJHCqm84cW";
+local invCode = "PTqnaSTG";
 local httpRequest = (syn and syn.request) or http_request or function() end;
 
 local function launchDiscord()
