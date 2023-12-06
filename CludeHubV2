@@ -156,7 +156,7 @@ fireclickdetector(game:GetService("Workspace").Structure["Launch Land"].LoadingT
   	end    
 })
 Tab:AddDropdown({
-	Name = "Color",
+	Name = "Water Color",
 	Default = "1",
 	Options = {"Black", "White", "Purple", "Cyan", "Reset"},
 	Callback = function(Value)
