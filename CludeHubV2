@@ -3893,15 +3893,10 @@ local Tab = Window:MakeTab({
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
+Tab:AddParagraph("CludeHub|ScriptHub","Hi this is me, Paul today this is my new CludeHub, so you guys and all exploiters dont steal this script Subscribe to my Channel name -- clude80 -- and this script was made on November 29 2023 and was uploaded on december 7 2023")
+Tab:AddLabel("Pet Simulator x|Script Hub")
 local Section = Tab:AddSection({
-	Name = "Hub"
-})
-Tab:AddParagraph("CludeHub|ScriptHub","Hi this is me, Paul today this is my new CludeHub, so you guys and all exploiters dont steal this script Subscribe to my Channel name -- clude80 --")
-Tab:AddButton({
-	Name = "",
-	Callback = function()
-      		print("button pressed")
-  	end    
+	Name = "Pet sim"
 })
 Tab:AddButton({
 	Name = "",
@@ -3915,10 +3910,40 @@ Tab:AddButton({
       		print("button pressed")
   	end    
 })
+Tab:AddLabel("Blade Ball|Script Hub")
+local Section = Tab:AddSection({
+	Name = "Blade ball"
+})
 Tab:AddButton({
 	Name = "",
 	Callback = function()
       		print("button pressed")
   	end    
+})
+Tab:AddButton({
+	Name = "",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+Tab:AddLabel("Brookhaven|Script Hub")
+local Section = Tab:AddSection({
+	Name = "Brookhaven"
+})
+Tab:AddButton({
+	Name = "",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+Tab:AddLabel("Blox fruit|Script Hub")
+local Section = Tab:AddSection({
+	Name = "Blox Fruit"
 })
 OrionLib:Init()
