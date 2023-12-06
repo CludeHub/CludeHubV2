@@ -3899,8 +3899,9 @@ local Section = Tab:AddSection({
 	Name = "Pet sim"
 })
 Tab:AddButton({
-	Name = "",
+	Name = "Redz Hub",
 	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/PetSimulator99/main/redz9999.lua"))()
       		print("button pressed")
   	end    
 })
