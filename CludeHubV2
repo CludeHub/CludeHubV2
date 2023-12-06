@@ -592,6 +592,36 @@ loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-3d-Box-ESP-
            print("button pressed")
 end
 })
+Tab:AddButton({
+  Name = "click tp",
+  Callback = function()
+mouse = game.Players.LocalPlayer:GetMouse()
+	tool = Instance.new("Tool")
+	tool.RequiresHandle = false
+	tool.Name = "Click Teleport"
+	tool.Activated:connect(function()
+		local pos = mouse.Hit+Vector3.new(0,2.5,0)
+		pos = CFrame.new(pos.X,pos.Y,pos.Z)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
+	end)
+	tool.Parent = game.Players.LocalPlayer.Backpack
+           print("button pressed")
+end
+})
+Tab:AddButton({
+  Name = "noclip",
+  Callback = function()
+
+           print("button pressed")
+end
+})
+Tab:AddButton({
+  Name = "",
+  Callback = function()
+
+           print("button pressed")
+end
+})
 local Tab = Window:MakeTab({
 	Name = "Starving Artist🎨",
 	Icon = "rbxassetid://4483345998",
