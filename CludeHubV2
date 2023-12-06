@@ -562,6 +562,23 @@ Tab:AddButton({
 end
 })
 local Tab = Window:MakeTab({
+	Name = "UnderGround War🗡️",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+  Name = "infinite jump",
+  Callback = function()
+local InfiniteJumpEnabled = true
+game:GetService("UserInputService").JumpRequest:connect(function()
+if InfiniteJumpEnabled then
+game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+end
+end)
+           print("button pressed")
+end
+})
+local Tab = Window:MakeTab({
 	Name = "Starving Artist🎨",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
