@@ -3897,13 +3897,7 @@ Tab:AddParagraph("CludeHub|ScriptHub","Hi this is me, Paul today this is my new 
 local Section = Tab:AddSection({
 	Name = ""
 })
-local Section = Tab:AddSection({
-	Name = ""
-})
 Tab:AddLabel("Pet Simulator x☄️|Script Hub")
-local Section = Tab:AddSection({
-	Name = ""
-})
 local Section = Tab:AddSection({
 	Name = "Pet sim"
 })
@@ -3928,9 +3922,6 @@ local Section = Tab:AddSection({
 })
 Tab:AddLabel("Blade Ball☄️|Script Hub")
 local Section = Tab:AddSection({
-	Name = ""
-})
-local Section = Tab:AddSection({
 	Name = "Blade ball"
 })
 Tab:AddButton({
@@ -3952,9 +3943,6 @@ local Section = Tab:AddSection({
 	Name = ""
 })
 Tab:AddLabel("Brookhaven☄️|Script Hub")
-local Section = Tab:AddSection({
-	Name = ""
-})
 local Section = Tab:AddSection({
 	Name = "Brookhaven"
 })
@@ -3979,9 +3967,6 @@ local Section = Tab:AddSection({
 })
 Tab:AddLabel("Blox fruit☄️|Script Hub")
 local Section = Tab:AddSection({
-	Name = ""
-})
-local Section = Tab:AddSection({
 	Name = "Blox Fruit"
 })
 Tab:AddButton({
@@ -4004,9 +3989,6 @@ local Section = Tab:AddSection({
 })
 Tab:AddLabel("Piano☄️|Script Hub")
 local Section = Tab:AddSection({
-	Name = ""
-})
-local Section = Tab:AddSection({
 	Name = "Piano"
 })
 Tab:AddButton({
@@ -4028,9 +4010,6 @@ local Section = Tab:AddSection({
 	Name = ""
 })
 Tab:AddLabel("Prison Life☄️|Script Hub")
-local Section = Tab:AddSection({
-	Name = ""
-})
 local Section = Tab:AddSection({
 	Name = "stuff"
 })
