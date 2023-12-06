@@ -27,6 +27,28 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/CludeHub/Clude-Gui-V2
                print("button pressed")
        end
 })
+Tab:AddButton({
+      Name = "rejoin",
+     Callback = function()
+-- rejoin		
+local TeleportService = game:GetService("TeleportService")
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+
+local Rejoin = coroutine.create(function()
+    local Success, ErrorMessage = pcall(function()
+        TeleportService:Teleport(game.PlaceId, LocalPlayer)
+    end)
+
+    if ErrorMessage and not Success then
+        warn(ErrorMessage)
+    end
+end)
+
+coroutine.resume(Rejoin)
+               print("button pressed")
+       end
+})
 local Tab = Window:MakeTab({
 	Name = "brookhaven🏡",
 	Icon = "rbxassetid://4483345998",
