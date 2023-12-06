@@ -548,6 +548,11 @@ Tab:AddButton({
 end
 })
 local Tab = Window:MakeTab({
+	Name = "Starving Artist🎨",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Tab = Window:MakeTab({
 	Name = "Slap Battle👋",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
