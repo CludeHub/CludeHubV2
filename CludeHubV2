@@ -170,32 +170,6 @@ if Value == "Reset" then do
 		print(Value)
 	end    
 })
-Tab:AddSlider({
-	Name = "Jump Power",
-	Min = 0,
-	Max = 20,
-	Default = 5,
-	Color = Color3.fromRGB(255,255,255),
-	Increment = 1,
-	ValueName = "Jump Power",
-	Callback = function(Value)
-game.Players.LocalPlayer.Character.Humanoid.JumpPower = value
-		print(Value)
-	end    
-})
-Tab:AddSlider({
-	Name = "Gravity",
-	Min = 0,
-	Max = 20,
-	Default = 5,
-	Color = Color3.fromRGB(255,255,255),
-	Increment = 1,
-	ValueName = "Gravity",
-	Callback = function(Value)
-game.Workspace.Gravity = value
-		print(Value)
-	end    
-})
 local Tab = Window:MakeTab({
 	Name = "brookhaven🏡",
 	Icon = "rbxassetid://4483345998",
