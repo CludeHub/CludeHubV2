@@ -669,6 +669,52 @@ loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Cat-Hub-V2-
   	end    
 })
 local Tab = Window:MakeTab({
+	Name = "Tower of hell⭕",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "tp to end",
+	Callback = function()
+local endzone = game.Workspace.tower.sections.finish.FinishGlow.CFrame
+ 
+    local player = game.Players.LocalPlayer.Character
+    player.HumanoidRootPart.CFrame = endzone
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "get items",
+	Callback = function()
+for _,e in pairs(game.Players.LocalPlayer.Backpack:GetDescendants()) do
+        if e:IsA("Tool") then
+        e:Destroy()
+        end
+        end
+        wait() 
+        for _,v in pairs(game.ReplicatedStorage.Gear:GetDescendants()) do
+        if v:IsA("Tool") then
+        local CloneThings = v:Clone()
+        wait()
+        CloneThings.Parent = game.Players.LocalPlayer.Backpack
+ 
+        end
+        end
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "god mode",
+	Callback = function()
+    for i,v in pairs(game:GetService("Workspace").tower:GetDescendants()) do
+        if v:IsA("BoolValue") and v.Name == "kills" then
+            v.Parent:Destroy()
+        end
+    end
+      		print("button pressed")
+  	end    
+})
+local Tab = Window:MakeTab({
 	Name = "song🎵",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
