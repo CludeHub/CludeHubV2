@@ -33,7 +33,10 @@ game:GetService("StarterGui"):SetCore(
 		Duration = 5,
 		Text = "Loading lastest version!\n\nJoin our Discord for games, scripts and more",
 		Button1 = "Join Discord!",
-		Callback = NotificationBindable
+		Callback = function()
+                setclipboard("holy crap")
+toclipboard("fuck")
+end
 	}
 )
 print("Hub loaded pls subscribe to my channel clude80 for more")
