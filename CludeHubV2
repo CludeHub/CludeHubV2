@@ -262,14 +262,6 @@ end
       		print("button pressed")
   	end    
 })
-Tab:AddDropdown({
-	Name = "Fake donate",
-	Default = "1",
-	Options = {"100k", "1m"},
-	Callback = function(Value)
-		print(Value)
-	end    
-})
 local Tab = Window:MakeTab({
 	Name = "legend of speed🏃‍♂️",
 	Icon = "rbxassetid://4483345998",
