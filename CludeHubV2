@@ -1,14 +1,41 @@
-msg = Instance.new ("Hint")
-        msg.Parent = game.Workspace
-        msg.Text = "loading....."
-        wait(6)
-        msg:remove()
-wait(1.304)
-msg = Instance.new ("Hint")
-        msg.Parent = game.Workspace
-        msg.Text = "CludeHub Loaded Script By Paul"
-        wait(6)
-        msg:remove()
+local httpService = game:GetService("HttpService");
+
+local invCode = "xJHCqm84cW";
+local httpRequest = (syn and syn.request) or http_request or function() end;
+
+local function launchDiscord()
+	if not httpRequest then warn("Exploit not supported. No HTTP found.") return end
+	
+	httpRequest({
+		Url = "http://127.0.0.1:6463/rpc?v=1",
+		Method = "POST",
+	
+		Headers = {
+			['Content-Type'] = 'application/json',
+			Origin = 'https://discord.com'
+		},
+	
+		Body = httpService:JSONEncode({
+			cmd = 'INVITE_BROWSER',
+			nonce = httpService:GenerateGUID(false),
+			args = {code = invCode}
+		})
+	})
+end;
+
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = launchDiscord
+
+game:GetService("StarterGui"):SetCore(
+	"SendNotification",
+	{
+		Title = "CludeHub",
+		Duration = 5,
+		Text = "Loading lastest version!\n\nJoin our Discord for games, scripts and more",
+		Button1 = "Join Discord!",
+		Callback = NotificationBindable
+	}
+)
 print("Hub loaded pls subscribe to my channel clude80 for more")
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/CludeHub/CludeHubLibrary/main/Source')))()
 local Window = OrionLib:MakeWindow({Name = "CludeHub By Paul🔥", HidePremium = true, SaveConfig = true, ConfigFolder = "OrionLibrary"})
