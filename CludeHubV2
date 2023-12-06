@@ -9,7 +9,6 @@ msg = Instance.new ("Hint")
         msg.Text = "CludeHub Loaded Script By Paul"
         wait(6)
         msg:remove()
-wait(1.630)
 print("Hub loaded pls subscribe to my channel clude80 for more")
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/ionlyusegithubformcmods/1-Line-Scripts/main/Mobile%20Friendly%20Orion')))()
 local Window = OrionLib:MakeWindow({Name = "CludeHub By Paul🔥", HidePremium = true, SaveConfig = true, ConfigFolder = "OrionLibrary"})
@@ -69,98 +68,31 @@ coroutine.resume(Rejoin)
                print("button pressed")
        end
 })
-Tab:AddToggle({
-	Name = "Speed",
-	Default = false,
-	Callback = function(Value)
-	if Value then
-		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 120
-		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 120
-	else
-		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 22
-		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
-	end
-		print(Value)
-	end    
-})
 local Tab = Window:MakeTab({
 	Name = "Natural Disaster🌋",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
-Tab:AddToggle({
-	Name = "Walk on Water",
-	Default = false,
-	Callback = function(Value)
-if Value == false then do game.Workspace.WaterLevel.CanCollide = false
-				game.Workspace.WaterLevel.Size = Vector3.new(10, 1, 10)
-			end
-		end
-		if Value == true then do game.Workspace.WaterLevel.CanCollide = true
-				game.Workspace.WaterLevel.Size = Vector3.new(1000, 1, 1000)
-			end
-		end
-		print(Value)
-	end    
+local Section = Tab:AddSection({
+	Name = "Hubs"
 })
 Tab:AddButton({
-	Name = "Remove SandStorm",
-	Callback = function()
-game.Players.LocalPlayer.PlayerGui.SandStormGui:destroy()
-	end
+      Name = "Hub",
+     Callback = function()
+               print("button pressed")
+       end
 })
-Tab:AddDropdown({
-	Name = "Water Color",
-	Default = "1",
-	Options = {"Black", "White", "Purple", "Cyan", "Reset"},
-	Callback = function(Value)
-if Value == "Black" then do
-				game.Workspace.WaterLevel.BrickColor = BrickColor.new("Black")
-				game.Workspace.Structure.FloodLevel.BrickColor = BrickColor.new("Black")
-				local Children = game.Workspace.TsunamiWave:GetChildren()
-				for a = 1, #Children do
-					Children[a].BrickColor = BrickColor.new("Black")
-				end
-			end
-		end
-		if Value == "White" then do
-				game.Workspace.WaterLevel.BrickColor = BrickColor.new("White")
-				game.Workspace.Structure.FloodLevel.BrickColor = BrickColor.new("White")
-				local Children = game.Workspace.TsunamiWave:GetChildren()
-				for a = 1, #Children do
-					Children[a].BrickColor = BrickColor.new("White")
-				end
-			end
-		end
-if Value == "Purple" then do
-				game.Workspace.WaterLevel.BrickColor = BrickColor.new("Bright violet")
-				game.Workspace.Structure.FloodLevel.BrickColor = BrickColor.new("Bright violet")
-				local Children = game.Workspace.TsunamiWave:GetChildren()
-				for a = 1, #Children do
-					Children[a].BrickColor = BrickColor.new("Bright violet")
-				end
-			end
-		end
-		if Value == "Cyan" then do
-				game.Workspace.WaterLevel.BrickColor = BrickColor.new("Cyan")
-				game.Workspace.Structure.FloodLevel.BrickColor = BrickColor.new("Cyan")
-				local Children = game.Workspace.TsunamiWave:GetChildren()
-				for a = 1, #Children do
-					Children[a].BrickColor = BrickColor.new("Cyan")
-				end
-			end
-		end
-if Value == "Reset" then do
-				game.Workspace.WaterLevel.BrickColor = BrickColor.new("Bright blue")
-				game.Workspace.Structure.FloodLevel.BrickColor = BrickColor.new("Bright blue")
-				local Children = game.Workspace.TsunamiWave:GetChildren()
-				for a = 1, #Children do
-					Children[a].BrickColor = BrickColor.new("Bright blue")
-				end
-			end
-		end
-		print(Value)
-	end    
+Tab:AddButton({
+      Name = "Hub",
+     Callback = function()
+               print("button pressed")
+       end
+})
+Tab:AddButton({
+      Name = "Hub",
+     Callback = function()
+               print("button pressed")
+       end
 })
 local Tab = Window:MakeTab({
 	Name = "brookhaven🏡",
