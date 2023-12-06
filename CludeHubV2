@@ -4172,8 +4172,9 @@ local Section = Tab:AddSection({
 	Name = "Hub"
 })
 Tab:AddButton({
-	Name = "",
+	Name = "SymphonyHub",
 	Callback = function()
+loadstring(game:HttpGet("https://itsjidy.github.io/SymphonyHub/Loader.html"))()
       		print("button pressed")
   	end    
 })
