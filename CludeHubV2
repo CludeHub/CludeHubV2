@@ -3897,6 +3897,20 @@ Tab:AddParagraph("CludeHub|ScriptHub","Hi this is me, Paul today this is my new 
 local Section = Tab:AddSection({
 	Name = ""
 })
+Tab:AddLabel("Advertisement☄️|Script Hub")
+local Section = Tab:AddSection({
+	Name = "Hub"
+})
+Tab:AddButton({
+	Name = "Vex",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/V31nc/On-Discord/Created/VexHub"))()
+      		print("button pressed")
+  	end    
+})
+local Section = Tab:AddSection({
+	Name = ""
+})
 Tab:AddLabel("Pet Simulator x☄️|Script Hub")
 local Section = Tab:AddSection({
 	Name = "Pet sim"
