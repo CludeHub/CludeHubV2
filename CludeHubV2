@@ -3,13 +3,13 @@ msg = Instance.new ("Hint")
         msg.Text = "loading....."
         wait(6)
         msg:remove()
-wait(3)
+wait(1.304)
 msg = Instance.new ("Hint")
         msg.Parent = game.Workspace
         msg.Text = "CludeHub Loaded Script By Paul"
         wait(6)
         msg:remove()
-wait(4)
+wait(2.43)
 print("Hub loaded pls subscribe to my channel clude80 for more")
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/ionlyusegithubformcmods/1-Line-Scripts/main/Mobile%20Friendly%20Orion')))()
 local Window = OrionLib:MakeWindow({Name = "CludeHub By Paul🔥", HidePremium = true, SaveConfig = true, ConfigFolder = "OrionLibrary"})
@@ -25,6 +25,13 @@ Tab:AddButton({
 OrionLib:Destroy()
       		print("button pressed")
   	end    
+})
+Tab:AddButton({
+      Name = "Enable Shiftlock",
+     Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/XE8tCfF5"))()
+               print("button pressed")
+       end
 })
 Tab:AddButton({
       Name = "Keyboard",
