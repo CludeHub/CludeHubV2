@@ -84,35 +84,6 @@ if Value == false then do game.Workspace.WaterLevel.CanCollide = false
 	end    
 })
 Tab:AddToggle({
-	Name = "Dark Mode",
-	Default = false,
-	Callback = function(Value)
-if Value == false then do
-				game:GetService("Lighting").ClockTime = "14"
-				game.Workspace.WaterLevel.BrickColor = BrickColor.new("Bright blue")
-				game.Workspace.Structure.Cloud.BrickColor = BrickColor.new("Sand blue")
-				game.Workspace.Structure.FloodLevel.BrickColor = BrickColor.new("Bright blue")
-				local Children = game.Workspace.TsunamiWave:GetChildren()
-				for a = 1, #Children do
-					Children[a].BrickColor = BrickColor.new("Bright blue")
-				end
-			end
-		end
-		if Value == true then do
-				game:GetService("Lighting").ClockTime = "4"
-				game.Workspace.WaterLevel.BrickColor = BrickColor.new("Black")
-				game.Workspace.Structure.Cloud.BrickColor = BrickColor.new("Black")
-				game.Workspace.Structure.FloodLevel.BrickColor = BrickColor.new("Black")
-				local Children = game.Workspace.TsunamiWave:GetChildren()
-				for a = 1, #Children do
-					Children[a].BrickColor = BrickColor.new("Black")
-				end
-			end
-		end
-		print(Value)
-	end    
-})
-Tab:AddToggle({
 	Name = "Choose map",
 	Default = false,
 	Callback = function(Value)
@@ -205,32 +176,6 @@ if Value == "Reset" then do
 				end
 			end
 		end
-		print(Value)
-	end    
-})
-Tab:AddSlider({
-	Name = "Jump Power",
-	Min = 0,
-	Max = 20,
-	Default = 5,
-	Color = Color3.fromRGB(255,255,255),
-	Increment = 1,
-	ValueName = "Jump Power",
-	Callback = function(Value)
-game.Players.LocalPlayer.Character.Humanoid.JumpPower = value
-		print(Value)
-	end    
-})
-Tab:AddSlider({
-	Name = "Gravity",
-	Min = 0,
-	Max = 20,
-	Default = 5,
-	Color = Color3.fromRGB(255,255,255),
-	Increment = 1,
-	ValueName = "Gravity",
-	Callback = function(Value)
-game.Workspace.Gravity = value
 		print(Value)
 	end    
 })
