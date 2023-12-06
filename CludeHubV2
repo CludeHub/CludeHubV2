@@ -4068,4 +4068,11 @@ loadstring(game:HttpGet("https://pastebin.com/raw/D8nkhYbJ"))()
       		print("button pressed")
   	end    
 })
+Tab:AddButton({
+	Name = "Kaax",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/zZ3m0akh"))()
+      		print("button pressed")
+  	end    
+})
 OrionLib:Init()
