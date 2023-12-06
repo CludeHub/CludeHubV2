@@ -1,3 +1,4 @@
+print("Hub loaded pls subscribe to my channel clude80 for more")
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/ionlyusegithubformcmods/1-Line-Scripts/main/Mobile%20Friendly%20Orion')))()
 local Window = OrionLib:MakeWindow({Name = "CludeHub By Paul🔥", HidePremium = true, SaveConfig = true, ConfigFolder = "OrionLibrary"})
 local Tab = Window:MakeTab({
@@ -113,16 +114,6 @@ Tab:AddButton({
 	Text = "Remove Blizzard GUI",
 	Callback = function()
 		game.Players.LocalPlayer.PlayerGui.BlizzardGui:destroy()
-      		print("button pressed")
-  	end    
-})
-Tab:AddButton({
-	Name = "Launch launch iland",
-	Callback = function()
-fireclickdetector(game:GetService("Workspace").Structure["Launch Land"]["SPACESHIP!!"].Shuttle.IgnitionButton.ClickDetector)
-fireclickdetector(game:GetService("Workspace").Structure["Launch Land"].RocketStand.ConsoleLower.ReleaseButtonLower.ClickDetector)
-fireclickdetector(game:GetService("Workspace").Structure["Launch Land"].RocketStand.ConsoleUpper.ReleaseButtonUpper.ClickDetector)
-fireclickdetector(game:GetService("Workspace").Structure["Launch Land"].LoadingTower.Console.ReleaseEntryBridge.ClickDetector)
       		print("button pressed")
   	end    
 })
