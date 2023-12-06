@@ -49,6 +49,20 @@ coroutine.resume(Rejoin)
                print("button pressed")
        end
 })
+Tab:AddToggle({
+	Name = "Speed",
+	Default = false,
+	Callback = function(Value)
+	if Value then
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 120
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 120
+	else
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 22
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+	end
+		print(Value)
+	end    
+})
 local Tab = Window:MakeTab({
 	Name = "brookhaven🏡",
 	Icon = "rbxassetid://4483345998",
