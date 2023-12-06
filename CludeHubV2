@@ -3925,6 +3925,19 @@ local Section = Tab:AddSection({
 	Name = "Blade ball"
 })
 Tab:AddButton({
+	Name = "Whitelist Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/E07Wyg7L"))()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
 	Name = "",
 	Callback = function()
       		print("button pressed")
