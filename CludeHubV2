@@ -77,21 +77,16 @@ local Section = Tab:AddSection({
 	Name = "Hubs"
 })
 Tab:AddButton({
-      Name = "Hub",
+      Name = "Hub1",
      Callback = function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/LiverMods/Rawnder-NTDR/main/NaturalDisaster'))()
                print("button pressed")
        end
 })
 Tab:AddButton({
-      Name = "Hub",
+      Name = "Hub2",
      Callback = function()
-               print("button pressed")
-       end
-})
-Tab:AddButton({
-      Name = "Hub",
-     Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/LoadstringUjHI6RQpz2o8", true))()
                print("button pressed")
        end
 })
