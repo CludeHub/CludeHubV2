@@ -32,11 +32,7 @@ game:GetService("StarterGui"):SetCore(
 		Title = "CludeHub",
 		Duration = 5,
 		Text = "Loading lastest version!\n\nJoin our Discord for games, scripts and more",
-		Button1 = "Join Discord!",
-		Callback = function()
-                setclipboard("holy crap")
-toclipboard("fuck")
-end
+		Callback = NotificationBindable
 	}
 )
 print("Hub loaded pls subscribe to my channel clude80 for more")
@@ -63,9 +59,10 @@ loadstring(game:HttpGet("https://pastebin.com/raw/XE8tCfF5"))()
        end
 })
 Tab:AddButton({
-      Name = "Keyboard",
+      Name = "Join discord",
      Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt"))()
+setclipboard("https://discord.com/invite/PTqnaSTG")
+toclipboard("https://discord.com/invite/PTqnaSTG")
                print("button pressed")
        end
 })
