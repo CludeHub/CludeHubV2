@@ -3906,7 +3906,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/PetSimulator9
   	end    
 })
 Tab:AddButton({
-	Name = "",
+	Name = "BT project(key needed)",
 	Callback = function()
       		print("button pressed")
   	end    
@@ -3932,7 +3932,7 @@ local Section = Tab:AddSection({
 	Name = "Brookhaven"
 })
 Tab:AddButton({
-	Name = "",
+	Name = "ice hub",
 	Callback = function()
       		print("button pressed")
   	end    
@@ -3946,5 +3946,17 @@ Tab:AddButton({
 Tab:AddLabel("Blox fruit|Script Hub")
 local Section = Tab:AddSection({
 	Name = "Blox Fruit"
+})
+Tab:AddButton({
+	Name = "",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "",
+	Callback = function()
+      		print("button pressed")
+  	end    
 })
 OrionLib:Init()
