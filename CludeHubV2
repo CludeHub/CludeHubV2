@@ -9,7 +9,7 @@ msg = Instance.new ("Hint")
         msg.Text = "CludeHub Loaded Script By Paul"
         wait(6)
         msg:remove()
-wait(2.43)
+wait(1.630)
 print("Hub loaded pls subscribe to my channel clude80 for more")
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/ionlyusegithubformcmods/1-Line-Scripts/main/Mobile%20Friendly%20Orion')))()
 local Window = OrionLib:MakeWindow({Name = "CludeHub By Paul🔥", HidePremium = true, SaveConfig = true, ConfigFolder = "OrionLibrary"})
@@ -102,26 +102,6 @@ if Value == false then do game.Workspace.WaterLevel.CanCollide = false
 		end
 		print(Value)
 	end    
-})
-Tab:AddToggle({
-	Name = "Choose map",
-	Default = false,
-	Callback = function(Value)
-if Value == false then do game.Players.LocalPlayer.PlayerGui.MainGui.MapVotePage.Visible = false
-			end
-		end
-		if Value == true then do game.Players.LocalPlayer.PlayerGui.MainGui.MapVotePage.Visible = true
-			end
-		end
-		print(Value)
-	end    
-})
-Tab:AddButton({
-	Name = "Infinite Yield",
-	Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxHackingProject/HPHub/main/IYNotByMe.lua"))()
-      		print("button pressed")
-  	end    
 })
 Tab:AddButton({
 	Name = "Remove SandStorm",
