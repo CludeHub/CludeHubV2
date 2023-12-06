@@ -3928,6 +3928,12 @@ Tab:AddButton({
       		print("button pressed")
   	end    
 })
+Tab:AddButton({
+	Name = "",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
 local Section = Tab:AddSection({
 	Name = ""
 })
@@ -3969,6 +3975,7 @@ loadstring(game:HttpGet("https://pastebin.com/raw/DzAdmNq1"))()
 Tab:AddButton({
 	Name = "Noob V4 Hub",
 	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/gerendr/Script-/main/Noob%20Hub"))()
       		print("button pressed")
   	end    
 })
@@ -4091,6 +4098,34 @@ Tab:AddButton({
 	Name = "Kaax",
 	Callback = function()
 loadstring(game:HttpGet("https://pastebin.com/raw/zZ3m0akh"))()
+      		print("button pressed")
+  	end    
+})
+local Section = Tab:AddSection({
+	Name = ""
+})
+local Section = Tab:AddSection({
+	Name = ""
+})
+Tab:AddLabel("Slap Battle☄️|Script Hub")
+local Section = Tab:AddSection({
+	Name = "👋"
+})
+Tab:AddButton({
+	Name = "Hub that exist",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "r20",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "",
+	Callback = function()
       		print("button pressed")
   	end    
 })
