@@ -1,3 +1,15 @@
+msg = Instance.new ("Hint")
+        msg.Parent = game.Workspace
+        msg.Text = "loading....."
+        wait(6)
+        msg:remove()
+wait(3)
+msg = Instance.new ("Hint")
+        msg.Parent = game.Workspace
+        msg.Text = "CludeHub Loaded Script By Paul"
+        wait(6)
+        msg:remove()
+wait(4)
 print("Hub loaded pls subscribe to my channel clude80 for more")
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/ionlyusegithubformcmods/1-Line-Scripts/main/Mobile%20Friendly%20Orion')))()
 local Window = OrionLib:MakeWindow({Name = "CludeHub By Paul🔥", HidePremium = true, SaveConfig = true, ConfigFolder = "OrionLibrary"})
