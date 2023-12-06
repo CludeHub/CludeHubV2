@@ -4114,6 +4114,7 @@ local Section = Tab:AddSection({
 Tab:AddButton({
 	Name = "Hub that exist",
 	Callback = function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/ionlyusegithubformcmods/1-Line-Scripts/main/Slap%20Battles")))()
       		print("button pressed")
   	end    
 })
@@ -4124,8 +4125,9 @@ Tab:AddButton({
   	end    
 })
 Tab:AddButton({
-	Name = "",
+	Name = "dizzy hub",
 	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomScriptr3/gggggggg/main/lolez.txt", true))()
       		print("button pressed")
   	end    
 })
