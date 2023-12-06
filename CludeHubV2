@@ -3921,7 +3921,10 @@ local Tab = Window:MakeTab({
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
-Tab:AddParagraph("Paragrap","Paragraph Content")
+Tab:AddParagraph("Script Hub☄️","A script hub that have many Hubs☄️")
+local Section = Tab:AddSection({
+	Name = ""
+})
 Tab:AddLabel("Advertisement☄️|Script Hub")
 local Section = Tab:AddSection({
 	Name = "Hub"
@@ -4157,6 +4160,38 @@ Tab:AddButton({
 	Name = "dizzy hub",
 	Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomScriptr3/gggggggg/main/lolez.txt", true))()
+      		print("button pressed")
+  	end    
+})
+Tab:AddParagraph("Script Hub☄️","A script hub that have many Hubs☄️")
+local Section = Tab:AddSection({
+	Name = ""
+})
+Tab:AddLabel("mm2☄️|Script Hub")
+local Section = Tab:AddSection({
+	Name = "Hub"
+})
+Tab:AddButton({
+	Name = "",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "",
+	Callback = function()
       		print("button pressed")
   	end    
 })
