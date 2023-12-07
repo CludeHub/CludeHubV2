@@ -4050,6 +4050,12 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/Veincx5315/Created/V
       		print("button pressed")
   	end    
 })
+Tab:AddButton({
+	Name = "",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
 local Section = Tab:AddSection({
 	Name = ""
 })
@@ -4243,6 +4249,41 @@ Tab:AddButton({
 	Name = "Kidachi",
 	Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/KidichiHB/Kidachi/main/Scripts/MM2_V2"))()
+      		print("button pressed")
+  	end    
+})
+local Section = Tab:AddSection({
+	Name = ""
+})
+local Section = Tab:AddSection({
+	Name = ""
+})
+Tab:AddLabel("The Strongest Battle Ground☄️|Script Hub")
+local Section = Tab:AddSection({
+	Name = "📜"
+})
+Tab:AddButton({
+	Name = "Badware hub",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/sandwichk/RobloxScripts/main/Scripts/BadWare/Hub/Load.lua", true))()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "",
+	Callback = function()
       		print("button pressed")
   	end    
 })
