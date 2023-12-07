@@ -32,6 +32,7 @@ game:GetService("StarterGui"):SetCore(
 		Title = "CludeHub",
 		Duration = 5,
 		Text = "Loading lastest version!\n\nJoin our Discord for games, scripts and more",
+                Icon = "rbxthumb://type=Asset&id=15564662251&w=150&h=150"}),
 		Callback = NotificationBindable
 	}
 )
