@@ -10,6 +10,19 @@
 
 ]=]
 
+-- Script By Paul CludeHub 
+            -- ignoring people because of the fucking skidders
+
+-- Home By moonsecv3
+-- ScriptHub By Paul
+-- Hub by Paul and Clude
+
+-- owner
+
+-- Paul,Moonsec,Fluxus,Lua,abrl
+
+       -- wish this script showcased
+
 s = Instance.new("Sound")
  s.Name = "Music"
  s.SoundId = "http://www.roblox.com/asset/?id=9086208751" --Put the id into there.
