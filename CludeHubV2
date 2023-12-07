@@ -583,7 +583,7 @@ Tab:AddSlider({
 	Increment = 1,
 	ValueName = "Speed",
 	Callback = function(Value)
-game:GetService("Players").LocalPlayer.Character.Humanoid.WalkSpeed = Value
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
 		print(Value)
 	end    
 })
