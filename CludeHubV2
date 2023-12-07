@@ -4069,6 +4069,34 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/TUPERX/TUPERX/Main/Me
       		print("button pressed")
   	end    
 })
+Tab:AddButton({
+	Name = "HoHo Hub(key needed) ",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "Zen Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/bloxfrui%20v0.3"))()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "Play back x Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NeaPchX2/Playback-X-HUB/main/Protected.lua.txt"))()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "Mukuro Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader"))()
+      		print("button pressed")
+  	end    
+})
 local Section = Tab:AddSection({
 	Name = ""
 })
