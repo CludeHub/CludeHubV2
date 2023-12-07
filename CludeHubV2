@@ -4207,8 +4207,9 @@ loadstring(game:HttpGet("https://itsjidy.github.io/SymphonyHub/Loader.html"))()
   	end    
 })
 Tab:AddButton({
-	Name = "",
+	Name = "EsclipMm2",
 	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Doggo-cryto/EclipseMM2/master/Script"))()
       		print("button pressed")
   	end    
 })
