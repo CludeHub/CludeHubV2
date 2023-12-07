@@ -4214,8 +4214,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Doggo-cryto/EclipseMM
   	end    
 })
 Tab:AddButton({
-	Name = "",
+	Name = "Lunar Hub(key = lunarhubnicebye",
 	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vwSaraa/LunarHub/main/mm2"))()
       		print("button pressed")
   	end    
 })
