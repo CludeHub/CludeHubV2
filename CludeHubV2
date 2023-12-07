@@ -1,3 +1,22 @@
+s = Instance.new("Sound")
+ s.Name = "Music"
+ s.SoundId = "http://www.roblox.com/asset/?id=9086208751" --Put the id into there.
+ s.Looped = false
+ s.Pitch = 1 --You can edit these settings.
+ s.Volume = 999999 --You can edit these settings.
+ s.archivable = false
+ 
+  s.Parent = game.Workspace
+ 
+ 
+s:play()
+ 
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+        Title = "CludeHub";
+        Text = "Thanks For Using My Script Join my discord and subscribe to my channel!1!";
+        Icon = "rbxthumb://type=Asset&id=15564662251&w=150&h=150"})
+    Duration = 16;
+wait(0.1)
 local httpService = game:GetService("HttpService");
 
 local invCode = "PTqnaSTG";
@@ -32,7 +51,6 @@ game:GetService("StarterGui"):SetCore(
 		Title = "CludeHub",
 		Duration = 5,
 		Text = "Loading lastest version!\n\nJoin our Discord for games, scripts and more",
-                Icon = "rbxthumb://type=Asset&id=15564662251&w=150&h=150"}),
 		Callback = NotificationBindable
 	}
 )
