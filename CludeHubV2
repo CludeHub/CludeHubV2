@@ -1,3 +1,15 @@
+--[=[
+
+    ___      _  _     __     _         _         ____   
+  ,"___".   FJ  L]    FJ    FJ        FJ        [__  '. 
+  FJ---L]  J |__| L  J  L  J |       J |        `--7 .' 
+ J |   LJ  |  __  |  |  |  | |       | |         .'.'.' 
+ | \___--. F L__J J  F  J  F L_____  F L_____  .' (_(__ 
+ J\_____/FJ__L  J__LJ____LJ________LJ________LJ________L
+  J_____F |__L  J__||____||________||________||________|
+
+]=]
+
 s = Instance.new("Sound")
  s.Name = "Music"
  s.SoundId = "http://www.roblox.com/asset/?id=9086208751" --Put the id into there.
