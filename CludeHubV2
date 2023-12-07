@@ -67,8 +67,8 @@ game:GetService("StarterGui"):SetCore(
 	}
 )
 print("Hub loaded pls subscribe to my channel clude80 for more")
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/CludeHub/CludeHubLibrary/main/Source')))()
-local Window = OrionLib:MakeWindow({Name = "CludeHub By Paul🔥", HidePremium = true, SaveConfig = true, ConfigFolder = "OrionLibrary"})
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/CludeHub/CludeHubLibrary/main/Source%2CLua')))()
+local Window = OrionLib:MakeWindow({Name = "CludeHub|By Paul☄️", HidePremium = true, SaveConfig = true, ConfigFolder = "CludeHub|Script Hub Lua"})
 local Tab = Window:MakeTab({
 	Name = "Home🏠",
 	Icon = "rbxassetid://4483345998",
