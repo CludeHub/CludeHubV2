@@ -19,46 +19,9 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
         Icon = "rbxthumb://type=Asset&id=15564662251&w=150&h=150"})
     Duration = 16;
 wait(0.1)
-local httpService = game:GetService("HttpService");
-
-local invCode = "PTqnaSTG";
-local httpRequest = (syn and syn.request) or http_request or function() end;
-
-local function launchDiscord()
-	if not httpRequest then warn("Exploit not supported. No HTTP found.") return end
-	
-	httpRequest({
-		Url = "http://127.0.0.1:6463/rpc?v=1",
-		Method = "POST",
-	
-		Headers = {
-			['Content-Type'] = 'application/json',
-			Origin = 'https://discord.com'
-		},
-	
-		Body = httpService:JSONEncode({
-			cmd = 'INVITE_BROWSER',
-			nonce = httpService:GenerateGUID(false),
-			args = {code = invCode}
-		})
-	})
-end;
-
-local NotificationBindable = Instance.new("BindableFunction")
-NotificationBindable.OnInvoke = launchDiscord
-
-game:GetService("StarterGui"):SetCore(
-	"SendNotification",
-	{
-		Title = "CludeHub",
-		Duration = 5,
-		Text = "Loading lastest version!\n\nJoin our Discord for games, scripts and more",
-		Callback = NotificationBindable
-	}
-)
 print("Hub loaded pls subscribe to my channel clude80 for more")
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/CludeHub/CludeHubLibrary/main/Source%2CLua')))()
-local Window = OrionLib:MakeWindow({Name = "CludeHub|By Paul☄️", HidePremium = true, SaveConfig = true, ConfigFolder = "CludeHub|Script Hub Lua"})
+local Window = OrionLib:MakeWindow({Name = "CludeHub By Paul☄️", HidePremium = true, SaveConfig = true, ConfigFolder = "Orion Library"})
 local Tab = Window:MakeTab({
 	Name = "Home🏠",
 	Icon = "rbxassetid://4483345998",
