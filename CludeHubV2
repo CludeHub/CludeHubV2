@@ -3942,8 +3942,10 @@ Tab:AddButton({
   	end    
 })
 Tab:AddButton({
-	Name = "",
+	Name = "WD(key needed)",
 	Callback = function()
+getgenv().boothsnipe = false
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Mainstring.lua"))()
       		print("button pressed")
   	end    
 })
@@ -4237,20 +4239,23 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/sandwichk/RobloxScrip
   	end    
 })
 Tab:AddButton({
-	Name = "",
+	Name = "Chill Hub X",
 	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/gitroblox2023/chillscriptX/main/77_9HO6H2PR80MG.lua'))()
       		print("button pressed")
   	end    
 })
 Tab:AddButton({
-	Name = "",
+	Name = "Xu Hub(key needed)",
 	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/6gbWyDrr"))()
       		print("button pressed")
   	end    
 })
 Tab:AddButton({
-	Name = "",
+	Name = "Nex Hub",
 	Callback = function()
+loadstring(game:HttpGet(“https://raw.githubusercontent.com/CopyReal/NexHub/main/NexHubLoader”))()
       		print("button pressed")
   	end    
 })
