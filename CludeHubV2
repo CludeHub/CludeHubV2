@@ -1,19 +1,4 @@
--- Script By Paul 
-
-s = Instance.new("Sound")
- s.Name = "Music"
- s.SoundId = "http://www.roblox.com/asset/?id=9086208751" --Put the id into there.
- s.Looped = false
- s.Pitch = 1 --You can edit these settings.
- s.Volume = 999999 --You can edit these settings.
- s.archivable = false
- 
-  s.Parent = game.Workspace
- 
- 
-s:play()
- 
-game:GetService("StarterGui"):SetCore("SendNotification", { 
+ game:GetService("StarterGui"):SetCore("SendNotification", { 
         Title = "CludeHub";
         Text = "Thanks For Using My Script Join my discord and subscribe to my channel!1!";
         Icon = "rbxthumb://type=Asset&id=15564662251&w=150&h=150"})
@@ -4217,5 +4202,5 @@ local Tab = Window:MakeTab({
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
-Tab:AddParagraph("Bot🤖","You can go to Brookhaven script hub for game Blade Ball tab: you can click auto parry for spam and more so this script is level 3 you can do anything you want i am sure that you are happy for this direct link script hub this is so many features and cool stuff like blade ball blade ball is popular right now and brookhaven but something is online dating but the fe vosual script is cool stuff tab you can find some thing cool there lol so this is my last paragraph bye. ")
+Tab:AddParagraph("Bot🤖","You can go to Brookhaven script hub for game Blade Ball tab: you can click auto parry for spam and more so this script is level 3 you can do anything you want i am sure that you are happy for this direct link script hub this is so many features and cool stuff like blade ball blade ball is popular right now and brookhaven but something is online dating but the fe vosual script is cool stuff tab you can find some thing cool there lol so this is my last paragraph bye ")
 OrionLib:Init()
