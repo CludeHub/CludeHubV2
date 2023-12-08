@@ -20,7 +20,7 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
     Duration = 16;
 wait(0.1)
 print("Hub loaded pls subscribe to my channel clude80 for more")
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/CludeHub/CludeHubLibrary/main/Source%2CLua')))()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "CludeHub By Paul☄️", HidePremium = true, SaveConfig = true, ConfigFolder = "Orion Library"})
 local Tab = Window:MakeTab({
 	Name = "Home🏠",
