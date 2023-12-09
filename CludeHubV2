@@ -7,20 +7,6 @@ local Tab = Window:MakeTab({
 })
 Tab:AddParagraph("CludeHub","A script have so many features amd buttons and its like so many day to make it today this is my first Hub")
 Tab:AddButton({
-	Name = "Destroy",
-	Callback = function()
-OrionLib:Destroy()
-      		print("button pressed")
-  	end    
-})
-Tab:AddButton({
-      Name = "Enable Shiftlock",
-     Callback = function()
-loadstring(game:HttpGet("https://pastebin.com/raw/XE8tCfF5"))()
-               print("button pressed")
-       end
-})
-Tab:AddButton({
       Name = "Join discord",
      Callback = function()
 setclipboard("https://discord.com/invite/PTqnaSTG")
