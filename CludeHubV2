@@ -1,49 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "CludeHub|By Paul☄️", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 local Tab = Window:MakeTab({
-	Name = "Home🏠",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-Tab:AddParagraph("CludeHub","A script have so many features amd buttons and its like so many day to make it today this is my first Hub")
-Tab:AddButton({
-      Name = "Join discord",
-     Callback = function()
-setclipboard("https://discord.com/invite/PTqnaSTG")
-toclipboard("https://discord.com/invite/PTqnaSTG")
-               print("button pressed")
-       end
-})
-Tab:AddButton({
-      Name = "Clude Gui HackV2",
-     Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/CludeHub/Clude-Gui-V2/main/Clude-Gui-V2-017263Auushks-LLl-exe-Exploit"))()
-               print("button pressed")
-       end
-})
-Tab:AddButton({
-      Name = "rejoin",
-     Callback = function()
--- rejoin		
-local TeleportService = game:GetService("TeleportService")
-local Players = game:GetService("Players")
-local LocalPlayer = Players.LocalPlayer
-
-local Rejoin = coroutine.create(function()
-    local Success, ErrorMessage = pcall(function()
-        TeleportService:Teleport(game.PlaceId, LocalPlayer)
-    end)
-
-    if ErrorMessage and not Success then
-        warn(ErrorMessage)
-    end
-end)
-
-coroutine.resume(Rejoin)
-               print("button pressed")
-       end
-})
-local Tab = Window:MakeTab({
 	Name = "Natural Disaster🌋",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
