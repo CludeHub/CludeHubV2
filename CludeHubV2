@@ -4117,9 +4117,4 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 Tab:AddParagraph("Bot🤖","You can go to Brookhaven script hub for game Blade Ball tab: you can click auto parry for spam and more so this script is level 3 you can do anything you want i am sure that you are happy for this direct link script hub this is so many features and cool stuff like blade ball blade ball is popular right now and brookhaven but something is online dating but the fe vosual script is cool stuff tab you can find some thing cool there lol so this is my last paragraph bye ")
-local Tab = Window:MakeTab({
-	Name = "Guns",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
 OrionLib:Init()
